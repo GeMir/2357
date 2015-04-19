@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8" />
+
+		<title></title>
+
+		<link rel="stylesheet" href="design/style.css" />
+		<link rel="shortcut icon" href="design/favicon.png">
+		<link rel="apple-touch-icon" href="design/apple-touch-icon.png">
+	</head>
+
+    <body>
+		<div class="menu">
+			<ul>
+				<li><a onclick="greatestCommonDivisorAnimation()">ggT</a> —<span id="g_key" class="key">G<span></li>
+				<li><a onclick="leastCommonMultipleAnimation()">kgV</a> —<span id="k_key" class="key">K<span></li>
+				<li><a onclick="removeLatestCardAnimation()">löschen</a> —<span id="x_key" class="key">X<span></li>
+				<li><a onclick="reverseGreatestCommonDivisorAnimation()">ggT »rückwärts«</a> —<span id="h_key" class="key">H<span></li>
+				<li><a onclick="reverseLeastCommonMultipleAnimation()">kgV »rückwärts«</a> —<span id="l_key" class="key">L<span></li>
+				<li><a onclick="location.reload(true)">Neustart</a> —<span class="key">F5<span></li>
+			</ul>
+			<span id="new_card">Neue Karte:</span><input id="new_value" type="text" autofocus>
+		</div>
+	</body>
+
+	<script src="scripts/snap.svg-min.js"></script>
+	<script src="scripts/main-min.js"></script>
+</html>

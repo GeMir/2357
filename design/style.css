@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100%;
+	background: #232323;
+
+}
+
+body {
+	width: 100%;
+	color: #8F8F8F;
+	position: relative;
+
+	text-align: right;
+
+	font: 14px "Open Sans";
+	font-style: italic;
+	font-weight: 400;
+}
+
+svg {
+	display: block;
+}
+
+input[type=text] {
+	margin: 0 30px 0 0;
+	padding: 5px;
+	width: 90px;
+	color: #fff;
+	background: #4E4E4E;
+	border-radius: 9px;
+	border: 2px solid #FFCB14;
+
+	text-align: center;
+
+	font: 17px "Open Sans";
+	font-style: bold;
+	font-weight: 600;
+
+}
+
+span#new_card {
+	margin: 0 12px 0 30px;
+	color: #FFCB14;
+
+	font: 17px "Open Sans";
+	font-style: italic;
+	font-weight: 400;
+}
+
+
+span.key {
+	margin: 0 0 0 10px;
+	padding: 1px 6px 2px 6px;
+
+	color: #A3A3A3;
+	background: #454545;
+
+	font: 15px "Source Code Pro";
+
+	border: 1px solid #A3A3A3;
+
+	border-radius: 5px;
+}
+
+div.menu {
+	padding: 15px 0 30px 0;
+
+	width: 100%;
+
+	left: auto;
+	right: auto;
+	bottom: 0;
+
+	background: #454545;
+
+	text-align: center;
+
+	position: absolute;
+}
+
+ul {
+	margin: 0 30px 0 0 ;
+	list-style-type: none;
+	display: inline;
+}
+
+li {
+	margin: 10px 0 0 30px;
+	color: #A3A3A3;
+	font-style: italic;
+	display: inline;
+}
+
+a, a:visited {
+	padding: 0 0 1px 0;
+	text-decoration: none;
+	border: 1px solid #A3A3A3;
+	border-style: none none dashed none;
+
+	cursor: pointer;
+}
+
+a:hover, a:active, a:visited:hover {
+	color: #fff;
+	border: 1px solid #fff;
+	border-style: none none dashed none;
+}
